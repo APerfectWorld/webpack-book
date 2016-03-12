@@ -46,6 +46,9 @@
 
 	__webpack_require__(1)
 
+	var src = __webpack_require__(5)
+	document.getElementById('demo').setAttribute('src', src)
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
