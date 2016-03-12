@@ -5,13 +5,13 @@ module.exports = {
     },
     // 输出
     output: {
-        path: './dist',
+        path: './',
         /*
             [name] 是 entry 中的 key
             entry: {
                 key: value
             }
         */
-        filename: "[name].js"
+        filename: "[name].b.js"
     }
 };

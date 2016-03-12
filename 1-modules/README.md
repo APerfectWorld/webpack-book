@@ -1,5 +1,11 @@
 # 像 nodejs 一样模块化开发
 
+---
+下一章 [嵌入 CSS](../2-style/)
+---
+
+[在线预览构建结果页面](http://nimojs.github.io/webpack-book/1-modules/)
+
 ```shell
 ## 命令行运行
 webpack --watch
@@ -15,16 +21,16 @@ module.exports = {
     },
     // 输出
     output: {
-        path: './dist',
+        path: './',
         /*
             [name] 是 entry 中的 key
             entry: {
                 key: value
             }
         */
-        filename: "[name].js"
+        filename: "[name].b.js"
     }
-}
+};
 ```
 module.exports 是 CommonJS 规范中定义一个文件对外接口的语法，[webpack.config.js](webpack.config.js) 文件对外的接口是一个 object ，其中定义了一些配置参数。
 
@@ -35,7 +41,7 @@ module.exports 是 CommonJS 规范中定义一个文件对外接口的语法，[
 
 ## output
 
-`output` 控制构建后的文件的存放位置和命名。 `path` 定义所有构建后文件的所在目录，本例中构建到当前文件夹的 `./dist` 目录。
+`output` 控制构建后的文件的存放位置和命名。 `path` 定义所有构建后文件的所在目录，本例中构建到当前文件夹。
 
 ## filename
 `filename` 控制构建后文件的文件名
@@ -56,7 +62,7 @@ module.exports = "some string"
 ```html
 <body>
 <a target="_blank" href="https://github.com/nimojs/webpack-book/blob/gh-pages/1-modules/README.md">本例说明</a>
-<script src="dist/index.js"></script>
+<script src="index.b.js"></script>
 </body>
 ```
 
@@ -126,3 +132,8 @@ module.exports = "some string"
 前面带 /******/ 的代码都是 webpack 的模块化代码，它内置了一个模块加载器
 
 模块 0 是 `index.js` 的代码，模块 1 是 `require("./content.js")` 的代码。如果你再  `require` 一个模块那么就会有模块 3。
+
+
+---
+下一章 [嵌入 CSS](../2-style/)
+---
