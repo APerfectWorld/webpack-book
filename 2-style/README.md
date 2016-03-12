@@ -1,7 +1,10 @@
 # JS包含样式
 
+
 ---
+
 上一章 [像 nodejs 一样模块化开发](../1-modules/)
+
 ---
 
 [在线预览构建结果页面](http://nimojs.github.io/webpack-book/2-style/)
@@ -76,3 +79,9 @@ require('!style!css!./index.css')
 </head>
 ```
 
+---
+
+上一章 [像 nodejs 一样模块化开发](../1-modules/)  
+下一章 [JS包含图片](../3-url-loader/)
+
+---

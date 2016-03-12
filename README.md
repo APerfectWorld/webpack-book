@@ -9,5 +9,7 @@ webpack 是基于 node 的模块打包工具，可以让使用者以 [CommonJS](
 
 
 **目录**  
+
 1. [模块化开发](./1-modules/)----------------[Preview](http://nimojs.github.io/webpack-book/1-modules/)
 2. [JS包含样式](./2-style/)------------------[Preview](http://nimojs.github.io/webpack-book/2-style/)
+3. [JS包含图片](./3-url)---------------------[Preview](http://nimojs.github.io/webpack-book/3-url/)

@@ -1,13 +1,14 @@
 # 像 nodejs 一样模块化开发
 
 ---
+
 下一章 [嵌入 CSS](../2-style/)
+
 ---
 
 [在线预览构建结果页面](http://nimojs.github.io/webpack-book/1-modules/)
 
 ```shell
-## 命令行运行
 webpack --watch
 ```
 ![shell log](https://cloud.githubusercontent.com/assets/3949015/13722317/59dc1180-e87c-11e5-9d03-af475539bfea.png)
@@ -135,5 +136,7 @@ module.exports = "some string"
 
 
 ---
-下一章 [嵌入 CSS](../2-style/)
+
+下一章 [JS包含样式](../2-style/)
+
 ---
