@@ -46,7 +46,7 @@ module.exports 是 CommonJS 规范中定义一个文件对外接口的语法，[
 // index.js
 var content = require("./content.js")
 
-document.body.innerHTML = content
+document.body.innerHTML = document.body.innerHTML + content
 ```
 ```js
 // content.js
@@ -111,7 +111,7 @@ module.exports = "some string"
 
 	var content = __webpack_require__(1)
 
-	document.body.innerHTML = content
+	document.body.innerHTML = document.body.innerHTML + content
 
 /***/ },
 /* 1 */

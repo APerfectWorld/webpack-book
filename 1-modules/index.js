@@ -1,3 +1,3 @@
 var content = require("./content.js")
 
-document.body.innerHTML = content
+document.body.innerHTML = document.body.innerHTML + content
