@@ -1,3 +1,4 @@
+var webpack = require('webpack')
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
     entry: {
@@ -21,5 +22,8 @@ module.exports = {
         new ExtractTextPlugin("[name].b.css", {
             allChunks: true
         })
+        ,
+        // 压缩代码
+        new webpack.optimize.UglifyJsPlugin()
     ]
 };
