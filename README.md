@@ -18,3 +18,4 @@ webpack 是基于 node 的模块打包工具，可以让使用者以 [CommonJS](
 6. [提取单独样式文件](./6-extract-text)-----------------[Preview](http://nimojs.github.io/webpack-book/6-extract-text/)
 7. [自动打包公用资源](./7-commonschunk)-----------------[Preview](http://nimojs.github.io/webpack-book/7-commonschunk/)
 8. [文件指纹Hash](./8-hash)-------------------[Preview](http://nimojs.github.io/webpack-book/8-hash/)
+9. [异步加载](./9-ensure)-------------------[Preview](http://nimojs.github.io/webpack-book/9-ensure/)
